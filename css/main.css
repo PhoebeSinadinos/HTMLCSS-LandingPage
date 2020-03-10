@@ -129,6 +129,16 @@ margin-right:60px
     font-weight:700;
     line-height: 1
 }
+/*********Full Banner*********/
+.full-banner{ padding: 0 15px;
+              margin: 50px 0;
+              position: relative;
+}
+.full-banner::before{ content:"";
+                        position: absolute;
+                        border: 1px solid #ffffff;
+                        margin:30px 30px 50px 50px;
+}
 
 
 
