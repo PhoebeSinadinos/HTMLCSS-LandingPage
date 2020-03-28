@@ -45,12 +45,12 @@ margin-right:60px
 }
 .logo {max-width: 100%; height: auto; }
 .search-box { width: 330px; height: 30px; padding: 6px 12px; border: 1px solid #a0a0a0;}
-.search-button { 
-    background-color: #a0a0a0; 
-    color: #ffffff; 
-    width: 100px; 
-    height: 30px; 
-    border: 0; 
+.search-button {
+    background-color: #a0a0a0;
+    color: #ffffff;
+    width: 100px;
+    height: 30px;
+    border: 0;
     padding: 0
 }
 .nav-list {
@@ -74,9 +74,9 @@ margin-right:60px
 }
 .account a { font-size: 14px }
 .profile-pic { width: 60px; height: 60px; }
-.profile-pic img { 
-    border-radius: 100px; 
-    max-width: 100% 
+.profile-pic img {
+    border-radius: 100px;
+    max-width: 100%
 }
 /**********HERO**********/
 .hero {
@@ -89,8 +89,8 @@ margin-right:60px
 .hero h1 {position: relative; left: -30px;}
 .hero h2 {text-decoration-color: #faa541;}
 .hero h1, .hero h2 {
-    font-size: 63px; 
-    font-weight: 700; 
+    font-size: 63px;
+    font-weight: 700;
     line-height: 0.9
 }
 .hero p {
@@ -220,17 +220,34 @@ footer a:hover {text-decoration:underline;}
     font-size: 12px;
     flex: 0 0 75%;
     padding: 10px 0;
-} 
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
+.newsletter.link-header {
+    font-size: 12px;
+    font-weight:400;
+    margin-bottom:5px;
+}
+.newsletter.link-subheader {
+    font-style:italic;
+    font-weight:400;
+    font-size:12px;
+    margin-bottom:15px;
+}
+.newletter input {
+    border: 1px solid #364147;
+    width:200px;
+    margin-bottom: 10px;
+}
+.newsletter button {
+    width: 150px;
+    min-width: auto;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.ps {flex: 0 0 25%;
+     padding:40px 0;
+     color:#e5e5e5;
+     font-size:16px;
+}
+.ps img{max-width:230px;}
